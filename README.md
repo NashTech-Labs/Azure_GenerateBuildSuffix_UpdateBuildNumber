@@ -36,10 +36,7 @@ You can directly call a particular template as per the requirement. for example:
       suffix: '${{ parameters.suffix }}'
 
   - template: UpdateBuildNumber.yaml                    
-  
 
-        
+  ``` 
   
 Make sure to adjust the repository name, branch name, and parameter values according to your project's requirements.
-
-  ```
